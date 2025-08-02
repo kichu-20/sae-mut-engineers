@@ -9,7 +9,7 @@ const ReasonsSection = () => {
     {
       image: bajaImage,
       title: "BAJA Competition",
-      description: "Design and build an all-terrain vehicle that will survive the severe punishment of rough terrain.",
+      description: "   Design and build an all-terrain vehicle that will survive the severe punishment of rough terrain.",
       position: "left"
     },
     {
