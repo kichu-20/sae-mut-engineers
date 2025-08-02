@@ -53,11 +53,11 @@ const ReasonsSection = () => {
         </div>
 
         {/* Reasons Grid */}
-        <div className="space-y-20">
+        <div className="space-y-32">
           {reasons.map((reason, index) => (
             <div
               key={index}
-              className={`flex flex-col lg:flex-row items-center gap-12 ${
+              className={`flex flex-col lg:flex-row items-center gap-16 lg:gap-20 ${
                 reason.position === "right" ? "lg:flex-row-reverse" : ""
               } ${reason.position === "center" ? "justify-center" : ""}`}
             >
