@@ -84,9 +84,12 @@ const ReasonsSection = () => {
                 <h3 className="font-playfair text-2xl md:text-3xl font-semibold text-golden mb-4">
                   {reason.title}
                 </h3>
-                <p className="font-inter text-golden-light/90 text-lg leading-relaxed max-w-md mx-auto lg:mx-0">
-                  {reason.description}
-                </p>
+                <div className="font-inter text-golden-light/90 text-lg leading-relaxed max-w-md mx-auto lg:mx-0">
+                  <span className="inline-flex items-start gap-3">
+                    <span className="w-2 h-2 bg-golden rounded-full mt-3 flex-shrink-0"></span>
+                    <span>{reason.description}</span>
+                  </span>
+                </div>
                 
                 {/* Decorative dot */}
                 <div className={`mt-6 flex ${reason.position === "right" ? "justify-end" : reason.position === "center" ? "justify-center" : "justify-start"}`}>

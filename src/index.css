@@ -40,9 +40,9 @@ All colors MUST be HSL.
     --radius: 0.75rem;
 
     /* Custom SAE Design Tokens */
-    --golden: 45 95% 75%;
-    --golden-light: 45 90% 85%;
-    --golden-dark: 45 85% 65%;
+    --golden: 45 100% 80%;
+    --golden-light: 45 95% 88%;
+    --golden-dark: 45 90% 70%;
     --green-dark: 120 15% 8%;
     --green-medium: 120 12% 12%;
     --green-light: 120 8% 18%;

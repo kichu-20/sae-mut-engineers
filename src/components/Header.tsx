@@ -1,9 +1,17 @@
 import saeLogo from "@/assets/sae-logo.png";
+import heroBackground from "@/assets/hero-background.jpg";
 
 const Header = () => {
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-green-dark/80 backdrop-blur-md border-b border-green-light/20">
-      <div className="container mx-auto px-6 py-4">
+    <header className="fixed top-0 left-0 right-0 z-50 border-b border-green-light/20 overflow-hidden">
+      {/* Background Image */}
+      <div 
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: `url(${heroBackground})` }}
+      >
+        <div className="absolute inset-0 bg-green-dark/90 backdrop-blur-sm"></div>
+      </div>
+      <div className="relative z-10 container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-4">
             <img 
